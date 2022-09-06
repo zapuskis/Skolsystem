@@ -1,0 +1,14 @@
+﻿  main.cpp
+C:\Users\gvidas.venckus\source\repos\Skolsystem\Skolsystem\Source\student.h(6,10): error C2440: 'initializing': cannot convert from 'const char [1]' to 'int'
+C:\Users\gvidas.venckus\source\repos\Skolsystem\Skolsystem\Source\student.h(6,12): message : There is no context in which this conversion is possible
+C:\Users\gvidas.venckus\source\repos\Skolsystem\Skolsystem\Source\student.h(6,10): error C2439: 'Student::age': member could not be initialized
+C:\Users\gvidas.venckus\source\repos\Skolsystem\Skolsystem\Source\student.h(6): message : see declaration of 'Student::age'
+C:\Users\gvidas.venckus\source\repos\Skolsystem\Skolsystem\Source\main.cpp(6,13): error C2248: 'SchoolSystem::Run': cannot access private member declared in class 'SchoolSystem'
+C:\Users\gvidas.venckus\source\repos\Skolsystem\Skolsystem\Source\School.h(7): message : see declaration of 'SchoolSystem::Run'
+C:\Users\gvidas.venckus\source\repos\Skolsystem\Skolsystem\Source\School.h(5): message : see declaration of 'SchoolSystem'
+  Schoolsystem.cpp
+C:\Users\gvidas.venckus\source\repos\Skolsystem\Skolsystem\Source\student.h(6,10): error C2440: 'initializing': cannot convert from 'const char [1]' to 'int'
+C:\Users\gvidas.venckus\source\repos\Skolsystem\Skolsystem\Source\student.h(6,12): message : There is no context in which this conversion is possible
+C:\Users\gvidas.venckus\source\repos\Skolsystem\Skolsystem\Source\student.h(6,10): error C2439: 'Student::age': member could not be initialized
+C:\Users\gvidas.venckus\source\repos\Skolsystem\Skolsystem\Source\student.h(6): message : see declaration of 'Student::age'
+  Generating Code...
