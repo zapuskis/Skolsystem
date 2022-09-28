@@ -2,7 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\Skolsystem",
-    "\\Skolsystem\\Skolsystem"
+    "\\Skolsystem\\Skolsystem",
+    "\\Skolsystem\\Skolsystem\\Debug"
   ],
   "SelectedNode": "\\Skolsystem\\Skolsystem.sln",
   "PreviewInSolutionExplorer": false

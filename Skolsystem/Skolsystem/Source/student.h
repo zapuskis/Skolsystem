@@ -11,7 +11,7 @@ class Students
 {
 public:
 	
-	std::string pupils[];
+	std::string pupils[20];
 
 };
 

@@ -2,7 +2,9 @@
 
 void SchoolSystem::Run()
 {
+
 	int counter = 0;
+	bool goFurther = 0;
 
 	while (true)
 	{
@@ -18,6 +20,21 @@ void SchoolSystem::Run()
 		std::cout << "7. remove student from the system";
 		std::cout << "8. information about a class";
 		std::cout << "9. exit";
+		std::cout << "do you want to continue?";
+		std::cout << "1 = yes 0 = no";
+		std::cin >> goFurther;
+		switch (goFurther == 1)
+		{
+		case 1: 
+		break;
+		}
+		if (goFurther == 0)
+		{
+		std::cout << "goodbye";
+		break;
+
+		}
+		
 	}
 }
 
