@@ -4,14 +4,8 @@
 
 struct Student
 {
-	std::string name = "";
-	int age = 0;
+	std::string name;
+	int age;
 };
-class Students
-{
-public:
-	
-	std::string pupils[20];
 
-};
 
