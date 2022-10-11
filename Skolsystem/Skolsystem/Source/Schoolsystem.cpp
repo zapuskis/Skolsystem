@@ -5,20 +5,20 @@
 void SchoolSystem::Run()
 {
 	SchoolSystem system;
-	
+	std::string nameOfStudent;
 	int counter = 0;
 	int choice;
 
 	while (true)
 	{
-		std::cout << "1. add a new student" "\n";
-		std::cout << "2. add a new class" "\n";
-		std::cout << "3. add a student to a class" "\n";
-		std::cout << "4. check if student is registered" "\n";
-		std::cout << "5. info about student" "\n";
-		std::cout << "6. remove student from a class" "\n";
-		std::cout << "7. remove student from the system" "\n";
-		std::cout << "8. information about a class" "\n";
+		std::cout << "1. add a new student" "\n"; // done
+		std::cout << "2. add a new class" "\n"; //idk how
+		std::cout << "3. add a student to a class" "\n"; //idk how
+		std::cout << "4. check if student is registered" "\n"; //half done
+		std::cout << "5. info about student" "\n"; // print out age and name
+		std::cout << "6. remove student from a class" "\n"; // find a student in a class and then student.erase() and or schoolClasses.erase()
+		std::cout << "7. remove student from the system" "\n"; // find the student in the vector and then student.erase()
+		std::cout << "8. information about a class" "\n"; // people in the class
 		std::cout << "9. exit" "\n";
 		std::cin >> choice ;
 
@@ -39,6 +39,20 @@ void SchoolSystem::Run()
 			{
 
 			}
+		}
+		if (choice == 3)
+		{
+			
+		}
+		if (choice == 4)
+		{
+			while (choice == 4)
+			{
+				std::cout << "what is the students name";
+				std::cin >> nameOfStudent;
+				std::find(students.begin(), students.end(), nameOfStudent) != students.end();
+			}
+
 		}
 		if (choice == 9)
 		{
@@ -65,4 +79,9 @@ void SchoolSystem::AddStudent()
 
 void SchoolSystem::RemoveStudent()
 {
+}
+void SchoolSystem::AddClass()
+{
+
+
 }

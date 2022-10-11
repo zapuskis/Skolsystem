@@ -10,6 +10,7 @@ public:
 	void Run();
 	void AddStudent();
 	void RemoveStudent();
+	void AddClass();
 
 
 
